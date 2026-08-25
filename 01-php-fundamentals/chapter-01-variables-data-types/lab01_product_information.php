@@ -31,5 +31,3 @@ echo "Price: " . $price2 . " THB\n";
 echo "Quantity: " . $quantity2 . "\n";
 echo "Status: " . ($isAvailable2 ? "In Stock" : "Out of Stock") . "\n";
 echo "Total: " . number_format($total2, 2) . " THB\n";
-
-?>
